@@ -11,8 +11,9 @@ function addOpacity(event) {
     if (!this.classList.contains('dim')){
         this.classList.add('dim')
     }    
-    getProductInfo(event.target.id);     
+    getProductInfo(event.target.id); 
 }
+
 
 function removeOpacity(event) {
      if (this.classList.contains('dim')){
@@ -96,3 +97,4 @@ function getProductInfo(partNumber) {
     }
     
 }
+
